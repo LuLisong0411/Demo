@@ -34,5 +34,29 @@
             <li>C</li>
             <li>D</li>
         </ol>
+        <!-- rowspan 跨行 -->
+        <!--rowspan时，有内容时下面的内容会被挤出去，浏览器将会多出一行存放被挤内容，没有内容时不去除下面的一行会有一些空隙-->
+        <table border="1">
+            <tr>
+                <td>aa</td>
+                <td rowspan="2">bb</td>
+            </tr>
+            <tr>
+                <td >cc</td>
+                <!--<td ></td>-->
+            </tr>
+        </table>
+        <!-- colspan 跨列 -->
+        <!--colspan时，有内容时旁边的内容会被挤出去，浏览器将多出一列存放被挤内容，没有内容时不去除旁边的一列会有一些空隙-->
+        <table border="1">
+            <tr>
+                <td>11</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td colspan="2">33</td>
+                <!--<td>44</td>-->
+            </tr>
+        </table>
 </body>
 </html>
