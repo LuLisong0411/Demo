@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--内联样式-->
+    <style>
+        #block{
+            width: 200px;
+            height: 200px;
+            background: #ff0036;
+        }
+        #in-line{
+            width: 200px;
+            height: 200px;
+            background: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div>div1</div>
+    <div>div2</div>
+    <span>span1</span>
+    <span>span2</span>
+    <div id="block">
+        块级元素block
+    </div>
+    <div id="in-line">
+        行级元素in-line
+    </div>
+</body>
+</html>
+<!--
+块级元素block:自己独占一行显示 可以设置宽高
+常见标签 h1~h6 li ol ul table p div
+
+行级元素inline:行级元素和行级元素会在一行显示 不能设置宽高 宽高是内容撑开的
+常见标签 a span
+行块级元素：img
+-->
