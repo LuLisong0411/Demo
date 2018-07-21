@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右键菜单</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #menu{
+            width: 100px;
+            border: 1px solid;
+            background: #ffffff;
+            list-style: none;
+            display: none;
+            position:absolute;
+        }
+        #menu li{
+            width: 100px;
+            border-bottom: 1px dashed;
+            line-height: 30px;
+            text-align: center;
+        }
+        #menu li:last-child{
+            border-bottom: none;
+        }
+        #menu li:hover{
+            background: #cccccc;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <ul id="menu">
+        <li>菜单1</li>
+        <li>菜单2</li>
+        <li>菜单3</li>
+        <li>菜单4</li>
+        <li>菜单5</li>
+    </ul>
+    <script>
+        var oMenu = document.getElementById('menu');
+        var aLi = document.getElementsByTagName('li');
+        document.oncontextmenu = function f(e){
+            e = e || window.event;
+            oMenu.style.display = 'block';
+            oMenu.style.top = e.clientY + 'px';
+            oMenu.style.left = e.clientX + 'px';
+            return false;
+        }
+        document.onclick = function(){
+            oMenu.style.display = 'none';
+        }
+        for(var i = 0; i<aLi.length;i++){
+            aLi[i].onclick = function () {
+                alert(this.innerHTML);
+            }
+        }
+    </script>
+</body>
+</html>
+<!--document.write()会把前面的代码覆盖，会消失想要的结果-->
