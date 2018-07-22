@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒模型2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .parent{
+            display: flex;
+            /*flex-direction: column;*/
+        }
+
+        .box{
+            height: 400px;
+            flex-grow: 1;
+            width: 0;
+        }
+
+        .box1{
+            background: #ff0000;
+
+        }
+        .box2{
+            background: #00ff00;
+
+
+        }
+        .box3{
+            background: #ffff00;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box box1">
+             <h1>这是一个标题</h1>
+        </div>
+        <div class="box box2">
+            <p>这是一个段落</p>
+        </div>
+        <div class="box box3">
+            <div>这是一个div</div>
+        </div>
+    </div>
+</body>
+</html>
