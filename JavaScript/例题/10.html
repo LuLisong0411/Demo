@@ -5,16 +5,87 @@
     <title>Title</title>
 </head>
 <body>
-<scrict>
-    <!--斐波纳契（Fibonacci）数列的第一项是1，第二项是1，
-    以后各项都是前两项的和。试用递归函数和非递归函数各编写一个程序，
-    求斐波纳契数列第N项的值
-    -->
+    <script>
+        /*
+        * 斐波纳契（Fibonacci）数列的第一项是1，第二项是1，
+        * 以后各项都是前两项的和。
+        * 试用递归函数和非递归函数各编写一个程序，
+        * 求斐波纳契数列第N项的值。
+        *
+        * 1 1 2 3 5 8 13 ...
+        * n1 n2 sum
+        *  n = (n - 1) + (n - 2)
+        * */
 
+        function fibonacci1(n) {
+            if (n == 1 || n == 2) {
+                return 1;
+            }
+            return fibonacci1(n - 1) + fibonacci1(n - 2);
+        }
+
+
+        function fibonacci2(n){
+            var n1 = 1, n2 = 1, sum = 0;
+            for(var i=2; i<n; i++){
+                sum = n1 + n2;
+                n1 = n2;
+                n2 = sum;
+            }
+            return sum;
+        }
+
+        function fibonacci3(n){
+            var arr = [1, 1, 2, 3, 5];
+            for(var i=2; i<n; i++){
+                arr[i] = arr[i-1] + arr[i-2];
+            }
+            return arr[n-1];
+        }
+
+        console.log(fibonacci1(7));
+        console.log(fibonacci2(7));
+        console.log(fibonacci3(7));
+
+
+        /*
+   * 利用全局变量和函数，设计模拟幸运数字机游戏。
+   * 设幸运数字为8，每次由计算机随机产生3个1-9之间(包括1和9）
+   * 的随机数，当这3个随机数中有一个数字为8时，就算赢了一次，
+   * 要求利用函数计算获胜率。
+   *
+   *
+   * 1 ~ 9
+   *   Math.ceil(Math.random() * ( 9 - 1)) + 1
+   *
+   *
+   * */
+
+        function getRangeRandom(low, high) {
+            return Math.ceil(Math.random() * (high - low)) + low;
+        }
+
+        var total = 100000;
+        var win = 0;
+        for (var i = 0; i < total; i++) {
+            for (var j = 0; j < 3; j++) {
+                // debugger;
+                if (getRangeRandom(1, 9) == 8) {
+                    win++;
+                    break;
+                }
+            }
+        }
+        console.log(win / total);
+
+
+
+
+    </script>
     <!--利用全局变量和函数，设计模拟幸运数字机游戏。设幸运数字为8，
     每次由计算机随机产生3个1-9之间(包括1和9）的随机数，当这3个随机数中有一个数字为8时，
     就算赢了一次，要求利用函数计算获胜率。
     -->
-</scrict>
+
 </body>
 </html>
