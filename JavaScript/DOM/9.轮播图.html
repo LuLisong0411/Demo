@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        #container{
+            width: 480px;
+            height: 280px;
+            position: relative;
+            margin: 120px auto;
+        }
+        #nav li,#arrows span{
+            width: 20px;
+            height: 20px;
+            float: left;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            margin-right: 5px;
+            line-height: 20px;
+            cursor: pointer;
+        }
+        #imgs img{
+            display: none;
+        }
+        #imgs .selected{
+            display: block;
+        }
+        #nav{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        #arrows{
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+        #nav .nav-selected{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="imgs">
+        <img src="img/1.jpg" alt="" class="selected">
+        <img src="img/2.jpg" alt="">
+        <img src="img/3.jpg" alt="">
+        <img src="img/4.jpg" alt="">
+    </div>
+    <ul id="nav">
+        <li class="nav-selected">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+    <div id="arrows">
+        <span id="prev">&lt;</span>
+        <span id="next">&gt;</span>
+    </div>
+</div>
+<script>
+    var oImgs = document.getElementById('imgs');
+    var aImg = oImgs.getElementsByTagName('img');
+    var oNav = document.getElementById('nav');
+    var aLi = oNav.getElementsByTagName('li');
+    var oPrev = document.getElementById('prev');
+    var oNext = document.getElementById('next');
+    var oContainer = document.getElementById('container');
+    var thisIndex = 0;
+    var timer;
+    for(var i = 0; i<aLi.length; i++){
+        aLi[i].index = i;
+        aLi[i].onmouseover = function () {
+            thisIndex = this.index;
+            for(var j = 0; j<aLi.length; j++){
+                aLi[j].className = '';
+                aImg[j].className = '';
+            }
+            aLi[thisIndex].className = 'nav-selected';
+            aImg[thisIndex].className = 'selected';
+        }
+    }
+    oPrev.onclick = function () {
+        thisIndex--;
+        if(thisIndex == -1){
+            thisIndex = aLi.length-1;
+        }
+        for(var i=0; i<aLi.length; i++){
+            aLi[i].className = '';
+            aImg[i].className = '';
+        }
+        aLi[thisIndex].className = 'nav-selected';
+        aImg[thisIndex].className = 'selected';
+    };
+
+    oNext.onclick = function () {
+        thisIndex++;
+        if(thisIndex == aLi.length){
+            thisIndex = 0;
+        }
+        for(var i = 0; i<aLi.length; i++){
+            aLi[i].className = '';
+            aImg[i].className = '';
+        }
+        aLi[thisIndex].className = 'nav-selected';
+        aImg[thisIndex].className = 'selected';
+    };
+
+    oPrev.onselectstart = oNext.onselectstart = function () {
+        return false;
+    }
+    oContainer.onmouseover = function(){
+        clearInterval(timer);
+    }
+    oContainer.onmouseout = function(){
+        timer = setInterval(function () {
+            thisIndex++;
+            if(thisIndex == aLi.length){
+                thisIndex = 0;
+            }
+            for(var i = 0;i<aLi.length;i++){
+                aLi[i].className = '';
+                aImg[i].className = '';
+            }
+            aLi[thisIndex].className = 'nav-selected';
+            aImg[thisIndex].className = 'selected';
+        },1000)
+    }
+
+    timer = setInterval(function () {
+        thisIndex++;
+        if(thisIndex == aLi.length){
+            thisIndex = 0;
+        }
+        for(var i = 0; i<aLi.length; i++){
+            aLi[i].className = '';
+            aImg[i].className = '';
+        }
+        aLi[thisIndex].className = 'nav-selected';
+        aImg[thisIndex].className = 'selected';
+    }, 1000)
+
+</script>
+</body>
+</html>
