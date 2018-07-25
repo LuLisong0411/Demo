@@ -82,39 +82,58 @@
         aLi[i].index = i;
         aLi[i].onmouseover = function () {
             thisIndex = this.index;
-            for(var j = 0; j<aLi.length; j++){
-                aLi[j].className = '';
-                aImg[j].className = '';
-            }
-            aLi[thisIndex].className = 'nav-selected';
-            aImg[thisIndex].className = 'selected';
+            // for(var i = 0; i<aLi.length; i++){
+            //     aLi[i].className = '';
+            //     aImg[i].className = '';
+            // }
+            // aLi[thisIndex].className = 'nav-selected';
+            // aImg[thisIndex].className = 'selected';
+            changeImg();
         }
     }
-    oPrev.onclick = function () {
-        thisIndex--;
-        if(thisIndex == -1){
-            thisIndex = aLi.length-1;
-        }
-        for(var i=0; i<aLi.length; i++){
-            aLi[i].className = '';
-            aImg[i].className = '';
-        }
-        aLi[thisIndex].className = 'nav-selected';
-        aImg[thisIndex].className = 'selected';
-    };
+    // oPrev.onclick = function () {
+    //     thisIndex--;
+    //     if(thisIndex == -1){
+    //         thisIndex = aLi.length-1;
+    //     }
 
-    oNext.onclick = function () {
-        thisIndex++;
-        if(thisIndex == aLi.length){
-            thisIndex = 0;
+        // for(var i=0; i<aLi.length; i++){
+        //     aLi[i].className = '';
+        //     aImg[i].className = '';
+        // }
+        // aLi[thisIndex].className = 'nav-selected';
+        // aImg[thisIndex].className = 'selected';
+    //     changeImg();
+    //
+    // };
+    //
+    // oNext.onclick = function () {
+    //     thisIndex++;
+    //     if(thisIndex == aLi.length){
+    //         thisIndex = 0;
+    //     }
+        // for(var i = 0; i<aLi.length; i++){
+        //     aLi[i].className = '';
+        //     aImg[i].className = '';
+        // }
+        // aLi[thisIndex].className = 'nav-selected';
+        // aImg[thisIndex].className = 'selected';
+    //     changeImg();
+    // };
+    oPrev.onclick = oNext.onclick = function() {
+        if (this == oPrev) {
+            thisIndex--;
+            if (thisIndex == -1) {
+                thisIndex = aLi.length - 1;
+            }
+        } else {
+            thisIndex++;
+            if (thisIndex == aLi.length) {
+                thisIndex = 0;
+            }
         }
-        for(var i = 0; i<aLi.length; i++){
-            aLi[i].className = '';
-            aImg[i].className = '';
-        }
-        aLi[thisIndex].className = 'nav-selected';
-        aImg[thisIndex].className = 'selected';
-    };
+        changeImg();
+    }
 
     oPrev.onselectstart = oNext.onselectstart = function () {
         return false;
@@ -123,32 +142,51 @@
         clearInterval(timer);
     }
     oContainer.onmouseout = function(){
-        timer = setInterval(function () {
-            thisIndex++;
-            if(thisIndex == aLi.length){
-                thisIndex = 0;
-            }
-            for(var i = 0;i<aLi.length;i++){
-                aLi[i].className = '';
-                aImg[i].className = '';
-            }
-            aLi[thisIndex].className = 'nav-selected';
-            aImg[thisIndex].className = 'selected';
-        },1000)
+        // timer = setInterval(function () {
+        //     thisIndex++;
+        //     if(thisIndex == aLi.length){
+        //         thisIndex = 0;
+        //     }
+        //     // for(var i = 0;i<aLi.length;i++){
+        //     //     aLi[i].className = '';
+        //     //     aImg[i].className = '';
+        //     // }
+        //     // aLi[thisIndex].className = 'nav-selected';
+        //     // aImg[thisIndex].className = 'selected';
+        //     changeImg();
+        // },1000)
+        play();
     }
 
-    timer = setInterval(function () {
-        thisIndex++;
-        if(thisIndex == aLi.length){
-            thisIndex = 0;
-        }
+    // timer = setInterval(function () {
+    //     thisIndex++;
+    //     if(thisIndex == aLi.length){
+    //         thisIndex = 0;
+    //     }
+        // for(var i = 0; i<aLi.length; i++){
+        //     aLi[i].className = '';
+        //     aImg[i].className = '';
+        // }
+        // aLi[thisIndex].className = 'nav-selected';
+        // aImg[thisIndex].className = 'selected';
+    //     changeImg();
+    // }, 1000)
+    function changeImg() {
         for(var i = 0; i<aLi.length; i++){
             aLi[i].className = '';
             aImg[i].className = '';
         }
         aLi[thisIndex].className = 'nav-selected';
         aImg[thisIndex].className = 'selected';
-    }, 1000)
+    }
+    changeImg();
+
+    function play() {
+        timer = setInterval(function () {
+            oNext.onclick();
+        },1000)
+    }
+    play();
 
 </script>
 </body>
