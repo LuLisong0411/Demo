@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淡入淡出</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        #container{
+            position: relative;
+        }
+        #imgs{
+            position: relative;
+            height: 500px;
+            /*写高度解决文件塌陷问题*/
+        }
+        #imgs div{
+            text-align: center;
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            opacity: 0;
+            transition: all 1s ease;
+        }
+        #nav{
+            position: absolute;
+            left: 50%;
+            top: 50%
+            transform: translateX(50%);
+            bottom: 30px;
+            z-index: 9999;
+        }
+        #nav li{
+            width: 25px;
+            height: 5px;
+            background-color: #000000;
+            opacity: .3;
+            filter: alpha(opacity=30);
+            float: left;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        #nav .selected{
+            background-color: #fff;
+            opacity: .6;
+            filter: alpha(opacity=60);
+        }
+        #imgs .banner1{
+            background-color: #e8e8e8;
+            /*z-index: 1;*/
+        }
+        #imgs .banner2{
+            background-color: #dc0225;
+            /*z-index: 1;*/
+        }
+        #imgs .banner3{
+            background-color: #fd9a43;
+            /*z-index: 1;*/
+        }
+        #imgs .banner4{
+            background-color: #e8e8e8;
+            /*z-index: 1;*/
+        }
+        #imgs .banner5{
+            background-color:#091133;
+            /*z-index: 1;*/
+        }
+        #imgs .banner6{
+            background-color: #e2393e;
+
+        }
+        #imgs .active{
+            opacity: 1;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="imgs">
+        <div class="banner1 active">
+            <img src="https://img.alicdn.com/simba/img/TB1HzC1lBjTBKNjSZFwSuwG4XXa.jpg" alt="">
+        </div>
+        <div class="banner2">
+            <img src="https://img.alicdn.com/tps/i4/TB1izicAH1YBuNjSszhSuwUsFXa.jpg" alt="">
+        </div>
+        <div class="banner3">
+            <img src="https://img.alicdn.com/tps/i4/TB1akxXw8mWBuNkSndVSuwsApXa.jpg_q100.jpg_.webp" alt="">
+        </div>
+        <div class="banner4">
+            <img src="https://img.alicdn.com/simba/img/TB1Y.xAGL9TBuNjy1zbSutpepXa.jpg" alt="">
+        </div>
+        <div class="banner5">
+            <img src="https://img.alicdn.com/imgextra/i2/163/TB2AX.NFv9TBuNjy1zbXXXpepXa_!!163-0-luban.jpg_q100.jpg_.webp" alt="">
+        </div>
+        <div class="banner6">
+            <img src="https://img.alicdn.com/tps/i4/TB17ITUFuuSBuNjSsplSuve8pXa.jpg" alt="">
+        </div>
+    </div>
+    <ul id="nav">
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<script>
+    var oNav = document.getElementById('nav');
+    var aLi = oNav.getElementsByTagName('li');
+    var oImgs = document.getElementById('imgs');
+    var aDiv = oImgs.getElementsByTagName('div');
+    var oContainer = document.getElementById('container');
+    var thisIndex = 0;
+    var timer;
+    for(var i = 0; i<aLi.length; i++){
+        aLi[i].index = i;
+        aLi[i].onmouseover = function () {
+            for(var j = 0; j<aLi.length; j++){
+                aLi[j].className = '';
+                aDiv[j].className = 'banner' + (j + 1);
+            }
+            this.className = 'selected';
+            aDiv[this.index].className += ' active';
+        }
+    }
+    oContainer.onmouseover = function(){
+        clearInterval(timer);
+    };
+    oContainer.onmouseout = function(){
+        timer = setInterval(function () {
+            thisIndex++;
+            if(thisIndex == aLi.length){
+                thisIndex = 0;
+            }
+            for(var j = 0; j<aLi.length; j++){
+                aLi[j].className = '';
+                aDiv[j].className = 'banner' + (j + 1);
+            }
+            this.className = 'selected';
+            aDiv[this.index].className += ' active';
+
+        },1000)
+    }
+    timer = setInterval(function () {
+        thisIndex++;
+        if(thisIndex = aLi.length){
+            thisIndex = 0;
+        }
+        for(var j = 0; j<aLi.length; j++){
+            aLi[j].className = '';
+            aDiv[j].className = 'banner' + (j + 1);
+        }
+        this.className = 'selected';
+        aDiv[this.index].className += ' active';
+    },1000)
+</script>
+</body>
+</html>
