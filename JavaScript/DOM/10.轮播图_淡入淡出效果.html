@@ -135,32 +135,25 @@
         clearInterval(timer);
     };
     oContainer.onmouseout = function(){
-        timer = setInterval(function () {
-            thisIndex++;
-            if(thisIndex == aLi.length){
-                thisIndex = 0;
-            }
-            for(var j = 0; j<aLi.length; j++){
-                aLi[j].className = '';
-                aDiv[j].className = 'banner' + (j + 1);
-            }
-            this.className = 'selected';
-            aDiv[this.index].className += ' active';
-
-        },1000)
+        play();
     }
-    timer = setInterval(function () {
-        thisIndex++;
-        if(thisIndex = aLi.length){
-            thisIndex = 0;
-        }
-        for(var j = 0; j<aLi.length; j++){
-            aLi[j].className = '';
-            aDiv[j].className = 'banner' + (j + 1);
-        }
-        this.className = 'selected';
-        aDiv[this.index].className += ' active';
-    },1000)
+
+   function play(){
+       timer = setInterval(function () {
+           thisIndex++;
+           if(thisIndex == aLi.length){
+               thisIndex = 0;
+           }
+
+           for(var i = 0; i<aLi.length; i++){
+               aLi[i].className = '';
+               aDiv[i].className = 'banner' + (i + 1);
+           }
+           this.className = 'selected';
+           aDiv[thisIndex].className += ' active';
+       },1000)
+   }
+   play();
 </script>
 </body>
 </html>
