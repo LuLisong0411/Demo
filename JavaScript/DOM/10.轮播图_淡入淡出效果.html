@@ -53,23 +53,18 @@
         }
         #imgs .banner1{
             background-color: #e8e8e8;
-            /*z-index: 1;*/
         }
         #imgs .banner2{
             background-color: #dc0225;
-            /*z-index: 1;*/
         }
         #imgs .banner3{
             background-color: #fd9a43;
-            /*z-index: 1;*/
         }
         #imgs .banner4{
             background-color: #e8e8e8;
-            /*z-index: 1;*/
         }
         #imgs .banner5{
             background-color:#091133;
-            /*z-index: 1;*/
         }
         #imgs .banner6{
             background-color: #e2393e;
@@ -127,7 +122,7 @@
                 aLi[j].className = '';
                 aDiv[j].className = 'banner' + (j + 1);
             }
-            this.className = 'selected';
+            aLi[this.index].className = 'selected';
             aDiv[this.index].className += ' active';
         }
     }
@@ -149,7 +144,7 @@
                aLi[i].className = '';
                aDiv[i].className = 'banner' + (i + 1);
            }
-           this.className = 'selected';
+           aLi[thisIndex].className = 'selected';
            aDiv[thisIndex].className += ' active';
        },1000)
    }
