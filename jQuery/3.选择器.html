@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+</head>
+<body>
+<div class="div1">div</div>
+<div class="div1">div</div>
+<div class="div1">div</div>
+
+    <ul id="ul1">
+        <li>01</li>
+        <li>02</li>
+        <li class="a">03</li>
+        <li>04</li>
+        <li>2</li>
+        <li>a</li>
+        <li>07</li>
+        <li>b</li>
+    </ul>
+<div>
+    <p>ppp</p>
+    <p>ppp</p>
+    <p>ppp</p>
+    <p>ppp</p>
+    <p>ppp</p>
+</div>
+<div>
+    <p>ppp</p>
+    <p></p>
+    <p>ppp</p>
+</div>
+
+<input type="hidden" name="userid" value="1">
+<input type="checkbox" name="newletter" value="Monthly" checked>
+<br>
+
+上传头像：
+<br>
+<input type="file">
+<br>
+学校：
+<select name="" id="">
+    <option value="" selected>黑大</option>
+    <option value="">理工</option>
+    <option value="">工大</option>
+</select>
+
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+        // console.log($('#div1'));
+        // $('.div1').css('background','#ff0000');
+        // $("#ul1 li:even").css('background','#00ff00');      //下标默认从0开始
+        // $("#ul1 li:odd").css('background','#00ffff');
+        // $("#ul1 li:eq(-2)").css('background','#00ffff');       //选中倒数第二个
+        // $("#ul1 li:eq(2)").css('background','#00ffff');        //选中下标为2的元素
+        //    $("#ul1 li:last").css('background','#00ff00');         //选中最后一个元素
+        //    $("#ul1 li:lt(3)").css('background','#00ff00');        //选中下标小于3的元素
+        //    $("#ul1 li:gt(3)").css('background','#00ff00');         //选中下标大于3的元素
+        //    $("#ul1 li:not('.a')").css('background','#00ff00');         //选中不是.a的所有元素
+        // var a = 2;
+        // $('#ul1 li:contains(' + a + ')').css('background','#00ffff');       //筛选出内容中含有2的元素
+           $('p:parent').css('background','#ffff00');
+    });
+
+
+
+
+</script>
+</body>
+</html>
