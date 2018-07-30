@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #menu li{
+            list-style: none;
+        }
+        #container{
+            width: 400px;
+            height: 300px;
+            border: 1px solid;
+            margin: 100px auto;
+        }
+        
+        #menu .item{
+            width: 120px;
+            height: 30px;
+            float: left;
+            line-height: 30px;
+            margin:0 6px;
+            text-align: center;
+            background-color: #cccccc;
+            cursor: pointer;
+        }
+        #menu .menu-selected{
+            background-color: #000000;
+            color: #ffffff;
+        }
+        #content div{
+            display: none;
+            
+        }
+        #content .content-selected{
+            display: block;
+        }
+        .clearfix::after{
+            content: '';
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <ul id="menu">
+            <li class="item menu-selected">音乐</li>
+            <li class="item">运动</li>
+            <li class="item">阅读</li>
+        </ul>
+        <div id="content">
+            <div class="content-selected">民谣，抒情，怀旧，古典</div>
+            <div>篮球，乒乓球，撸铁，跑步</div>
+            <div>余华，苏童，渡边淳一，村上春树，史铁生，张爱玲，余秋雨，加西亚·马尔克斯，海明威，梭罗，
+                叔本华，大冰，东野圭吾，刘登福，杨绛，王小波，金庸，古龙，毛姆等
+            </div>
+        </div>
+    </div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+                $("#menu .item").on('click',function () {
+                    $(this).addClass('menu-selected').siblings().removeClass('menu-selected');
+                    $('#content div').eq($(this).index()).addClass('content-selected').siblings().removeClass('content-selected');
+                    // console.log($(this).index());
+                    // console.log(this);
+                });
+
+
+        })
+    </script>
+</body>
+</html>

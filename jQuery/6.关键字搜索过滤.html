@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过滤</title>
+    <style>
+        #list li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="请输入手机型号：" id="search">
+    <ul id="list">
+        <li>huawei</li>
+        <li>iphoneX</li>
+        <li>xiaomi</li>
+        <li>vivo</li>
+        <li>oppo</li>
+        <li>三星</li>
+        <li>iphone8</li>
+    </ul>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            $('#search').on('keyup',function () {
+                // console.log(this.value);
+                // console.log($(this).val());
+                $('#list li').css('background','transparent');
+                if (this.value != ''){
+                    $('#list li:contains('+this.value+')').css('background','#f00');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

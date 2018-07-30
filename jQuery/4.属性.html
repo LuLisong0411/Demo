@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: #00ffff;
+            border: 5px solid;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">div</div>
+    <script src="jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            // $('#div1').attr('xx', 'yy');
+            //     console.log($('#div1').attr('xx'));
+            // $('#div1').prop('xx', 'yy');
+            // console.log($('#div1').prop('xx'));
+            // console.log($('#username').val());
+
+            $('#div1').on('click',function () {
+                // $(this).css('background','#ffff00')
+                   $(this).css({
+                       backgroundColor:'#ff0000',
+                       color :'#00ffff',
+                       // 'font-size': 50
+                       fontSize : 60
+                   })
+                // $(this).css('width', function(){
+                //     var w = 200 + 200;
+                //     return w;
+                // });
+                console.log($(this).css('color'));
+            })
+            // console.log('width='+ $('#div1').width());
+            // console.log('innerWidth='+$('#div1').innerWidth());
+            // console.log('outerWidth='+$('#div1').outerWidth(true));
+            //
+            // console.log($('#div1').offset());
+            // console.log($('#div1').position());
+            // $('#div1').html('<h1>hhh</h1>');
+            // $('#div1').text('<h1>hhh</h1>');
+            // $('#div1').text('bbb');
+        })
+    </script>
+</body>
+</html>
