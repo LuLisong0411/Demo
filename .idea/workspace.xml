@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/css的世界测试/1.this.html" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="" />
+    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/css的世界测试/3.闭包.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css的世界测试/1.this.html" beforeDir="false" afterPath="$PROJECT_DIR$/css的世界测试/1.this.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_css/11.三角形.html" beforeDir="false" afterPath="$PROJECT_DIR$/html_css/11.三角形.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,26 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8.星巴克官网响应式布局.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/移动端web开发/8.星巴克官网响应式布局.html">
+      <file leaf-file-name="3.闭包.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css的世界测试/3.闭包.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/移动端web开发/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2538">
-              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -51,8 +42,8 @@
       <list>
         <option value="XHTML File" />
         <option value="HTML4 File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,8 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css3/12.两列布局，左侧固定，右侧自适应2.html" />
-        <option value="$PROJECT_DIR$/css3/13.两列布局，左侧固定，右侧自适应3.html" />
         <option value="$PROJECT_DIR$/css3/14.两列布局，左侧固定，右侧自适应4.html" />
         <option value="$PROJECT_DIR$/css3/15.三列布局，左右固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/16.三列布局，左右固定，中间自适应.html" />
@@ -113,6 +102,8 @@
         <option value="$PROJECT_DIR$/移动端web开发/8.x星巴克官网响应式布局.html" />
         <option value="$PROJECT_DIR$/移动端web开发/css/index.css" />
         <option value="$PROJECT_DIR$/移动端web开发/8.星巴克官网响应式布局.html" />
+        <option value="$PROJECT_DIR$/css的世界测试/1.this.html" />
+        <option value="$PROJECT_DIR$/css的世界测试/3.闭包.html" />
       </list>
     </option>
   </component>
@@ -134,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,17 +133,21 @@
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="css的世界测试" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StarBucks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -161,19 +157,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\css" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM\img" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\html_css\测试" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\css" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM\img" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,6 +231,11 @@
       <workItem from="1533045407896" duration="341000" />
       <workItem from="1533106295471" duration="7995000" />
       <workItem from="1533135914723" duration="89000" />
+      <workItem from="1533181150413" duration="74000" />
+      <workItem from="1533188300148" duration="3000" />
+      <workItem from="1533277863187" duration="133000" />
+      <workItem from="1533280684432" duration="1054000" />
+      <workItem from="1533281898873" duration="2096000" />
     </task>
     <task id="LOCAL-00012" summary="z-index优先显示页面+充满">
       <created>1532102105596</created>
@@ -583,21 +584,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128587000" />
+    <option name="totallyTimeSpent" value="131947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.11328125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5013812" side_tool="true" weight="0.15625" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -653,33 +655,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/移动端web开发/8.星巴克官网响应式布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/移动端web开发/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/6.默认行为.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/20.transform_rotate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -776,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/9.轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/14_offset.html" />
     <entry file="file://$PROJECT_DIR$/JavaScript/DOM/14_offset.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -795,13 +760,6 @@
     <entry file="file://$PROJECT_DIR$/css3/31_旋转立方体.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1806" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/10.轮播图_淡入淡出效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/DOM/18_节点1.html">
@@ -861,13 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css的世界测试/1.this.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -978,14 +929,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/移动端web开发/8.星巴克官网响应式布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        <state relative-caret-position="54">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css3/1.选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/9.轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/12_定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/10.轮播图_淡入淡出效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css的世界测试/1.this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css的世界测试/3.闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
