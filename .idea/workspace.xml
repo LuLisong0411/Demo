@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/css的世界测试/1.this.html" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="解决点透视+函数库">
       <change beforePath="$PROJECT_DIR$/ES6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css的世界测试/3.闭包.html" beforeDir="false" afterPath="$PROJECT_DIR$/css的世界测试/3.闭包.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,12 +22,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3.闭包.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css的世界测试/3.闭包.html">
+      <file leaf-file-name="fastclick.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/移动端web开发/fastclick.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
+            <state relative-caret-position="-810" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12_zepto.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/移动端web开发/12_zepto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1134" />
           </provider>
         </entry>
       </file>
@@ -155,19 +158,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\html_css\测试" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\css" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM\img" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\html_css\测试" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,21 +237,7 @@
       <workItem from="1533277863187" duration="133000" />
       <workItem from="1533280684432" duration="1054000" />
       <workItem from="1533281898873" duration="2777000" />
-      <workItem from="1533302650770" duration="333000" />
-    </task>
-    <task id="LOCAL-00013" summary="特殊字体+css3选择器">
-      <created>1532102461582</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1532102461582</updated>
-    </task>
-    <task id="LOCAL-00014" summary="三列">
-      <created>1532102713677</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1532102713677</updated>
+      <workItem from="1533302650770" duration="576000" />
     </task>
     <task id="LOCAL-00015" summary="target">
       <created>1532102925991</created>
@@ -579,11 +568,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533284057705</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="定时器+标签语义化">
+      <created>1533303098186</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1533303098187</updated>
+    </task>
+    <task id="LOCAL-00063" summary="解决点透视+函数库">
+      <created>1533303211126</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1533303211126</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132961000" />
+    <option name="totallyTimeSpent" value="133204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -614,8 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="js" />
-    <MESSAGE value="居中" />
     <MESSAGE value="过渡+动画" />
     <MESSAGE value="淡入淡出效果代码优化" />
     <MESSAGE value="动画原理+定时器" />
@@ -639,7 +640,9 @@
     <MESSAGE value="星巴克首页" />
     <MESSAGE value="闭包" />
     <MESSAGE value="this+闭包" />
-    <option name="LAST_COMMIT_MESSAGE" value="this+闭包" />
+    <MESSAGE value="定时器+标签语义化" />
+    <MESSAGE value="解决点透视+函数库" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决点透视+函数库" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,41 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css3/20.transform_rotate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/21.transform_translate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/22.transform_scale.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/23.transform_skew.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css3/24.transform_style.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css3/26.3D2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -966,11 +934,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/移动端web开发/11_滚动条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端web开发/10_定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端web开发/9_html语义化.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css的世界测试/3.闭包.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端web开发/fastclick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动端web开发/12_zepto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134" />
       </provider>
     </entry>
   </component>
