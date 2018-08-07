@@ -1,4 +1,4 @@
-let a = 5;
+let a = 55;
 let sum = (x, y) => x + y;
 let b = 6;
 class People{
