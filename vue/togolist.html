@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #todolist{
+            width: 600px;
+            margin: 100px auto;
+        }
+        .info{
+            height: 60px;
+            border-top: 1px solid;
+            padding: 5px;
+        }
+        h1{
+            text-align: center;
+        }
+        ul{
+            padding: 0;
+            margin-bottom: 5px;
+        }
+        li{
+            list-style: none;
+            background-color: #cccccc;
+            width: 100%;
+            height: 30px;
+            margin-top: 5px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+  <div id="todolist">
+      <h1>todolist</h1>
+      <div class="info"> 
+          名称：<input type="text" placeholder="请输入产品名称">
+          价格：<input type="text" value="0">
+          <button>增加</button>
+          <br>
+          <input type="text" placeholder="请输入搜索关键字">
+          <button>查询</button>
+       </div>
+       <div id="content">
+           <ul id="example">
+               <li v-for = "(item,index) in list">
+                    {{item}} {{index}}
+                </li>
+           </ul>
+       </div>   
+       <button>删除选中</button>
+       <script src="vue.js"></script>
+       <script>
+           var example = new Vue ({
+               el: '#todolist',
+               data:{   
+                   counter : 0,
+                   checkdeName:'',
+                   list:[{
+                       
+                   }
+                   ],
+               }
+           })
+       </script>
+  </div> 
+</body>
+</html>
