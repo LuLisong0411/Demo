@@ -50,9 +50,12 @@
        <div id="content">
            <ul id="example">
                <li v-for = "(item,index) in list">
-                    {{item}} {{index}}
+                  <input type="checkbox" name="" id="">
+                  <span>{{item.name}}</span>
+                  <span>{{item.price}}</span>
                 </li>
            </ul>
+           
        </div>   
        <button>删除选中</button>
        <script src="vue.js"></script>
@@ -63,7 +66,17 @@
                    counter : 0,
                    checkdeName:'',
                    list:[{
-                       
+                        name: '裤子',
+                        price : 120,
+                   },{
+                       name : '电脑',
+                       price : 6500,
+                   },{
+                       name : '手机',
+                       price : 5000,
+                   },{
+                       name : '衣服',
+                       price : 200,
                    }
                    ],
                }
