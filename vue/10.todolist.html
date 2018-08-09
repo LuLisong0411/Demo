@@ -3,8 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <style>
+            .orange{
+                background-color: orange
+            }
+        </style>
 </head>
 <body>
+    <div id="app" class="text-center">
+        <h1>todolist</h1>
+        <hr>
+        <form class="form-inline" @submit.prevent>
+            <div> 
+                <input v-model.trim="keyword" type="text" placeholder="请输入商品名称">
+                <button @click = "search"class="btn btn-default glyphicon glyphicon-search">搜索</button>
+            </div>
+            
+        </form>
+        <form action="" @submit.prevent>
+            <div>
+                <label for="product-name">商品名称</label>
+                <input type="text" placeholder="请输入商品名称">
+                
+                <label for="product-price">商品价格</label>
+                <input type="text" placeholder="请输入价格">
+                <button @click = "add"  class="btn btn-default glyphicon glyphicon-search">增加</button>
+            </div>
+        </form>
+        
+        <table class="table table-border">
+            <thead>
+                <tr class="warning">
+                    <td>选择</td>
+                    <td>商品名称</td>
+                    <td>商品价格</td>
+                    <td>删除</td>
+                </tr>
+            </thead>
+            <tbody  >
+                <tr @click="select(product)" v-for="(product,index) in productList" :class="product.isRed? 'orange': ''">
+                    <td>
+                        <input @click.stop type="checkbox" v-model="checkedList" :value="index">
+                    </td>
+                    <td>{{product.productName}}</td>            
+                    <td>{{product.productPirce}}</td>
+                    <td>
+                        <button @click= "del(index)" type="button" class="btn btn-warning glyphicon glyphicon-remove btn-xs"></button>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <button @click = "delChecked" type="button" class="btn btn-danger btn-xs">删除选中</button>
+                    </td>
+                    <td colspan="3">总计:{{total}} 元</td>
+                
+                </tr>
+                    
+            </tbody>
+        </table>
+    </div>
+    <script src="vue.js"></script>
+    <script>
+        new Vue({
+            el:'#app',
+            data : {
+                productList:[{
+                     productName : '衣服',
+                     productPirce : 120,
+                     isRed :false,
+                },{
+                    productName : 'Mac-pro',
+                    productPirce : 10020,
+                    isRed :false,
+                },{
+                    productName : 'iphonex',
+                    productPirce : 9020,
+                    isRed :false,
+                },{
+                    productName : '帽子',
+                    productPirce : 530,
+                    isRed :false,
+                },{
+                    productName : 'Aj11',
+                    productPirce : 2600,
+                    isRed : false,
+                }] ,
+                productName :'',
+                productPirce :0,
+                checkedList : [],
+                keyword: ''
+            },
+            methods :{
+                select(product){
+                    product.isRed = !product.isRed;
 
+                },
+                del(index){
+                    this.productList.splice(index,1);
+                },
+                delChecked() {
+                    this.productList = this.productList.filter((elem,index)=>{
+                        if(!this.checkedList.includes(index)){
+                            return elem;
+                        }
+                    });
+                    this.checkedList = [];
+                },
+                add(){
+                    this.productList.push({
+                        productName : this.productName,
+                        productPirce : this.productPirce,
+                        isRed :false,
+                    });
+                    this.productName = '';
+                    this.productPirce = 0;
+                },
+                search(){
+                    this.productList = this.productList.filter((elem,index)=>{
+                        if(elem.productName.includes(this.keyword)){
+                            return elem;
+                        }
+                    });
+                }
+            },
+            computed:{
+                total(){
+                   return  this.productList.reduce((sum,elem)=>{
+                        if(elem.isRed){
+                            sum += parseInt(elem.productPirce);
+                        }
+                        return sum;
+                    },0);
+                }
+            }
+        })
+    </script>
 </body>
-</html>
