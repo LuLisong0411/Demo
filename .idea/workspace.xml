@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/3_v-for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/4_sort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/5_v-text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/10.todolist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/6_v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/7_v-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/8_v-bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/9_其他指令.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -162,19 +163,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\ES6" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\css" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM\img" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\vue" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\ES6" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -247,14 +248,7 @@
       <workItem from="1533778300303" duration="197000" />
       <workItem from="1533793748014" duration="7000" />
       <workItem from="1533794005246" duration="29000" />
-      <workItem from="1533794153222" duration="254000" />
-    </task>
-    <task id="LOCAL-00019" summary="弹性盒模型与盒模型">
-      <created>1532273865881</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1532273865881</updated>
+      <workItem from="1533794153222" duration="545000" />
     </task>
     <task id="LOCAL-00020" summary="新旧弹性盒模型的差别">
       <created>1532273971035</created>
@@ -592,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533794222205</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="vue">
+      <created>1533794416465</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1533794416465</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134505000" />
+    <option name="totallyTimeSpent" value="134796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
