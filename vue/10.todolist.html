@@ -25,10 +25,10 @@
         <form action="" @submit.prevent>
             <div>
                 <label for="product-name">商品名称</label>
-                <input type="text" placeholder="请输入商品名称">
+                <input v-model.trim="productName" type="text" placeholder="请输入商品名称">
                 
                 <label for="product-price">商品价格</label>
-                <input type="text" placeholder="请输入价格">
+                <input v-model.number="productPrice" type="number" placeholder="请输入价格">
                 <button @click = "add"  class="btn btn-default glyphicon glyphicon-search">增加</button>
             </div>
         </form>
@@ -48,7 +48,7 @@
                         <input @click.stop type="checkbox" v-model="checkedList" :value="index">
                     </td>
                     <td>{{product.productName}}</td>            
-                    <td>{{product.productPirce}}</td>
+                    <td>{{product.productPrice}}</td>
                     <td>
                         <button @click= "del(index)" type="button" class="btn btn-warning glyphicon glyphicon-remove btn-xs"></button>
                     </td>
@@ -71,27 +71,27 @@
             data : {
                 productList:[{
                      productName : '衣服',
-                     productPirce : 120,
+                     productPrice : 120,
                      isRed :false,
                 },{
                     productName : 'Mac-pro',
-                    productPirce : 10020,
+                    productPrice : 10020,
                     isRed :false,
                 },{
                     productName : 'iphonex',
-                    productPirce : 9020,
+                    productPrice : 9020,
                     isRed :false,
                 },{
                     productName : '帽子',
-                    productPirce : 530,
+                    productPrice : 530,
                     isRed :false,
                 },{
                     productName : 'Aj11',
-                    productPirce : 2600,
+                    productPrice : 2600,
                     isRed : false,
                 }] ,
                 productName :'',
-                productPirce :0,
+                productPrice :0,
                 checkedList : [],
                 keyword: ''
             },
@@ -114,11 +114,11 @@
                 add(){
                     this.productList.push({
                         productName : this.productName,
-                        productPirce : this.productPirce,
+                        productPrice : this.productPrice,
                         isRed :false,
                     });
                     this.productName = '';
-                    this.productPirce = 0;
+                    this.productPrice = 0;
                 },
                 search(){
                     this.productList = this.productList.filter((elem,index)=>{
@@ -132,7 +132,7 @@
                 total(){
                    return  this.productList.reduce((sum,elem)=>{
                         if(elem.isRed){
-                            sum += parseInt(elem.productPirce);
+                            sum += parseInt(elem.productPrice);
                         }
                         return sum;
                     },0);
