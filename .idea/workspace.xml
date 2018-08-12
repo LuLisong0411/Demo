@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/14_生命周期.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/15_组件1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/17_slot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/18_dialog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,33 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10.todolist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/10.todolist.html">
+      <file leaf-file-name="18_dialog.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/18_dialog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+            <state relative-caret-position="192">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="e#111#135#0" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14_生命周期.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/14_生命周期.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15_组件1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/15_组件1.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="header.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/header.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186" />
           </provider>
         </entry>
       </file>
@@ -74,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css3/16.三列布局，左右固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/17.三列布局，左右固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/18.三列布局，头尾固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/19.三列布局，头尾固定，中间自适应.html" />
@@ -125,6 +106,7 @@
         <option value="$PROJECT_DIR$/css的世界测试/3.闭包.html" />
         <option value="$PROJECT_DIR$/vue/10.todolist.html" />
         <option value="$PROJECT_DIR$/vue/14_生命周期.html" />
+        <option value="$PROJECT_DIR$/vue/18_dialog.html" />
       </list>
     </option>
   </component>
@@ -173,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fellows24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -273,14 +255,7 @@
       <workItem from="1533913843056" duration="34000" />
       <workItem from="1533913894631" duration="34000" />
       <workItem from="1533913960940" duration="22000" />
-      <workItem from="1533955774175" duration="2529000" />
-    </task>
-    <task id="LOCAL-00022" summary="css世界测试+简单编程题">
-      <created>1532345987974</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1532345987974</updated>
+      <workItem from="1533955774175" duration="5345000" />
     </task>
     <task id="LOCAL-00023" summary="两列布局">
       <created>1532351814321</created>
@@ -618,14 +593,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533957410847</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="vue">
+      <created>1533958418985</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1533958418985</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138169000" />
+    <option name="totallyTimeSpent" value="140985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.13474241" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -676,9 +659,9 @@
     <MESSAGE value="jquery demo" />
     <MESSAGE value="ES6基础语法" />
     <MESSAGE value="html" />
-    <MESSAGE value="vue" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,23 +675,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css3/31_旋转立方体.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1806" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/18_节点1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/DOM/20_函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/DOM/wichung-1.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
@@ -980,12 +946,11 @@
         <state relative-caret-position="-324" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/10.todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/vue/header.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/15_组件1.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/14_生命周期.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -994,12 +959,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/15_组件1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/header.vue">
+    <entry file="file://$PROJECT_DIR$/vue/10.todolist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186" />
+        <state relative-caret-position="205">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/16_组件2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/17_slot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/18_dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#111#135#0" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

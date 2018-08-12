@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出框</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .dialog-mark{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,.5);
+        }
+        .dialog-box{
+            width: 400px;
+            height: 400px;
+            border: 1px solid;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: #00ffff;
+        }
+        .dialog-header{
+            height: 30px;
+            background-color: #000000;
+            color: #fff;
+            line-height: 30px;
+            padding: 0 10px;
+        }
+        .dialog-title{
+            float: left;
+        }
+        .dialog-close{
+            float: right;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <button @click="isLogin=true">login</button>
+        <button @click="isRegist=true">regist</button>
+        <my-dialog v-show="isLogin" @close="isLogin=false">
+            <span slot="title">login</span>
+            <form action="" slot="content">
+                <p>
+                    用户名：<input type="text">
+                </p>
+                <p>
+                    密码：<input type="password">
+                </p>
+                <p>
+                    <button>login</button>
+                </p>
+            </form>
+        </my-dialog>
+            <my-dialog v-show="isRegist" @close="isRegist=false">
+                <span slot="title">regist</span>
+                <form action="" slot="content">
+                    <p>
+                        用户名:
+                        <input type="text">
+                    </p>
+                    <p>
+                        密码:
+                        <input type="password">
+                    </p>
+                    <p>
+                        邮箱:
+                        <input type="email">
+                    </p>
+                    <p>
+                        手机号:
+                        <input type="text">
+                    </p>
+                    <p>
+                        <button>注册</button>
+                    </p>
+                </form>
+            </my-dialog>
+    </div>
+
+    <template id="my-dialog">
+        <div class="dialog-mark">
+            <div class="dialog-box">
+                <div class="dialog-header">
+                    <div class="dialog-title">
+                        <slot name="title"></slot>
+                    </div>
+                    <div @click="$emit('close')" class="dialog-close">[X]</div>
+                </div>
+                <div class="dialog-content">
+                    <slot  name="content"></slot>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="vue.js"></script>
+    <script>
+        new Vue({
+            el: "#app",
+            data :{
+                isLogin:false,
+                isRegist:false,
+            },
+            components:{
+                'my-dialog' :{
+                    template:'#my-dialog'
+                }
+            }
+
+
+        })
+
+
+    </script>
+</body>
+</html>
