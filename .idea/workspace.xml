@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css的世界测试/1.this.html" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/17_slot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/18_dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,21 +19,7 @@
     <favorites_list name="Demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="18_dialog.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/18_dialog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#111#135#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,6 +101,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/ES6/node_modules" />
     <handled-path value="$PROJECT_DIR$/vue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vuecli3-test/node_modules" />
     <handled-path value="$PROJECT_DIR$/webpack/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -133,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +132,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,19 +148,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\vue" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\ES6" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
-      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\css" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM\img" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript\DOM" />
       <recent name="C:\Users\陆力松\WebstormProjects\Demo\JavaScript" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\vue" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\ES6" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\jQuery" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发" />
+      <recent name="C:\Users\陆力松\WebstormProjects\Demo\移动端web开发\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,13 +239,7 @@
       <workItem from="1533913894631" duration="34000" />
       <workItem from="1533913960940" duration="22000" />
       <workItem from="1533955774175" duration="5345000" />
-    </task>
-    <task id="LOCAL-00023" summary="两列布局">
-      <created>1532351814321</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1532351814321</updated>
+      <workItem from="1534086199850" duration="165000" />
     </task>
     <task id="LOCAL-00024" summary="看张鑫旭博客测试三列布局">
       <created>1532361469898</created>
@@ -600,15 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533958418985</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="vue">
+      <created>1534086344833</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1534086344848</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140985000" />
+    <option name="totallyTimeSpent" value="141150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.13474241" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -675,6 +658,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue/18_dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/DOM/wichung-1.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
@@ -934,10 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="596" column="33" selection-start-line="596" selection-start-column="33" selection-end-line="596" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,12 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/header.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/15_组件1.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/14_生命周期.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,10 +967,12 @@
           <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="e#111#135#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/19_computed_watch.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
