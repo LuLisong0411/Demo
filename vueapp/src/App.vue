@@ -11,7 +11,7 @@ import CommonHeader from '@/components/CommonHeader.vue';
 import CommonFooter from '@/components/CommonFooter.vue'
 export default {
   components: {
-    CommonHeader ,
+    CommonHeader, 
     CommonFooter
   },
   data(){
