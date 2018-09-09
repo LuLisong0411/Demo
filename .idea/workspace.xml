@@ -4,8 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/css的世界测试/1.this.html" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="vue">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/react/4.事件绑定.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueapp/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueapp/src/App.vue" afterDir="false" />
     </list>
@@ -23,12 +23,17 @@
     <favorites_list name="Demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueapp/src/App.vue">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="4.事件绑定.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/4.事件绑定.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="327">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <element signature="e#1137#1660#0" />
+                <element signature="e#1486#1518#0" />
+                <element signature="e#1430#1650#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css3/18.三列布局，头尾固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/19.三列布局，头尾固定，中间自适应.html" />
         <option value="$PROJECT_DIR$/css3/19.三列布局，头尾固定，中间自适应2.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/选项卡.html" />
@@ -103,6 +107,7 @@
         <option value="$PROJECT_DIR$/vue/14_生命周期.html" />
         <option value="$PROJECT_DIR$/vue/18_dialog.html" />
         <option value="$PROJECT_DIR$/vueapp/src/App.vue" />
+        <option value="$PROJECT_DIR$/react/4.事件绑定.html" />
       </list>
     </option>
   </component>
@@ -120,8 +125,7 @@
     <handled-path value="$PROJECT_DIR$/webpack/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="175" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -131,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,19 +146,12 @@
             <path>
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="vueapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="vueapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,14 +263,9 @@
       <workItem from="1534217349846" duration="38000" />
       <workItem from="1534685538404" duration="59000" />
       <workItem from="1534687101295" duration="6000" />
-      <workItem from="1534765328867" duration="169000" />
-    </task>
-    <task id="LOCAL-00025" summary="事件原理小demo+基础选项卡+轮播图">
-      <created>1532446068818</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1532446068818</updated>
+      <workItem from="1534765328867" duration="226000" />
+      <workItem from="1534859283191" duration="42000" />
+      <workItem from="1536475471133" duration="1854000" />
     </task>
     <task id="LOCAL-00026" summary="DOM">
       <created>1532446347384</created>
@@ -610,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534217327734</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="vueapp">
+      <created>1534765545005</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1534765545006</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141473000" />
+    <option name="totallyTimeSpent" value="143426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -646,7 +646,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="事件模型" />
     <MESSAGE value="节点" />
     <MESSAGE value="函数" />
     <MESSAGE value="变大" />
@@ -671,7 +670,8 @@
     <MESSAGE value="html" />
     <MESSAGE value="优化" />
     <MESSAGE value="vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue" />
+    <MESSAGE value="vueapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="vueapp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,13 +685,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/18_dialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/DOM/wichung-1.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-729" />
@@ -996,6 +989,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/4.事件绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#1137#1660#0" />
+            <element signature="e#1486#1518#0" />
+            <element signature="e#1430#1650#0" />
+          </folding>
         </state>
       </provider>
     </entry>
