@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react/5.将军借兵.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/6.样式的传值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/7.弹出层.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="6.样式的传值.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react/6.样式的传值.html">
+      <file leaf-file-name="7.弹出层.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -52,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/DOM/4.事件.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/轮播图.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/1.DOM.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/2.history.html" />
@@ -103,6 +101,7 @@
         <option value="$PROJECT_DIR$/react/5.将军借兵.html" />
         <option value="$PROJECT_DIR$/react/6.样式的继承.html" />
         <option value="$PROJECT_DIR$/react/6.样式的传值.html" />
+        <option value="$PROJECT_DIR$/react/7.弹出层.html" />
       </list>
     </option>
   </component>
@@ -130,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,18 +145,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fellows24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
@@ -261,14 +261,8 @@
       <workItem from="1534765328867" duration="226000" />
       <workItem from="1534859283191" duration="42000" />
       <workItem from="1536475471133" duration="2101000" />
-      <workItem from="1536478897564" duration="3484000" />
-    </task>
-    <task id="LOCAL-00029" summary="transform">
-      <created>1532447331956</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1532447331956</updated>
+      <workItem from="1536478897564" duration="3885000" />
+      <workItem from="1536591080238" duration="368000" />
     </task>
     <task id="LOCAL-00030" summary="transform补充">
       <created>1532447628885</created>
@@ -606,11 +600,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536477546253</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="react">
+      <created>1536501272248</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1536501272248</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147157000" />
+    <option name="totallyTimeSpent" value="147926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -620,6 +621,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -632,7 +634,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,13 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html_css/6.hover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html_css/3.css选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1215" />
@@ -982,11 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#1137#1660#0" />
-            <element signature="e#1486#1518#0" />
-            <element signature="e#1430#1650#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,6 +990,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
