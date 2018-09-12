@@ -4,7 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css的世界测试/1.this.html" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="react">
+    <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react/7.弹出层.html" beforeDir="false" afterPath="$PROJECT_DIR$/react/7.弹出层.html" afterDir="false" />
     </list>
@@ -26,8 +26,8 @@
       <file leaf-file-name="7.弹出层.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="378">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -263,14 +263,8 @@
       <workItem from="1536475471133" duration="2101000" />
       <workItem from="1536478897564" duration="3885000" />
       <workItem from="1536591080238" duration="590000" />
-      <workItem from="1536676114017" duration="343000" />
-    </task>
-    <task id="LOCAL-00031" summary="3D">
-      <created>1532447732162</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1532447732162</updated>
+      <workItem from="1536676114017" duration="389000" />
+      <workItem from="1536764029700" duration="78000" />
     </task>
     <task id="LOCAL-00032" summary="代码优化，提高代码的复用">
       <created>1532488766769</created>
@@ -608,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536591556716</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="react">
+      <created>1536676473684</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1536676473684</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148491000" />
+    <option name="totallyTimeSpent" value="148615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -996,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="378">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
