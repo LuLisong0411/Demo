@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49333d25-5303-47b8-a2d6-f03f23f74dfb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/7.弹出层.html" beforeDir="false" afterPath="$PROJECT_DIR$/react/7.弹出层.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +22,22 @@
     <favorites_list name="Demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="browser.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/browser.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="7.弹出层.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript/DOM/轮播图.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/1.DOM.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/2.history.html" />
         <option value="$PROJECT_DIR$/JavaScript/DOM/2.DOM.html" />
@@ -90,6 +105,7 @@
         <option value="$PROJECT_DIR$/react/5.将军借兵.html" />
         <option value="$PROJECT_DIR$/react/6.样式的继承.html" />
         <option value="$PROJECT_DIR$/react/6.样式的传值.html" />
+        <option value="$PROJECT_DIR$/ES6/2_解构.html" />
         <option value="$PROJECT_DIR$/react/7.弹出层.html" />
       </list>
     </option>
@@ -118,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,10 +141,16 @@
               <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,20 +272,9 @@
       <workItem from="1536764029700" duration="126000" />
       <workItem from="1536850055923" duration="445000" />
       <workItem from="1537079503854" duration="3292000" />
-    </task>
-    <task id="LOCAL-00034" summary="js">
-      <created>1532530240623</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1532530240623</updated>
-    </task>
-    <task id="LOCAL-00035" summary="居中">
-      <created>1532530398720</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1532530398720</updated>
+      <workItem from="1537367751246" duration="210000" />
+      <workItem from="1537684734880" duration="1344000" />
+      <workItem from="1538143999252" duration="25000" />
     </task>
     <task id="LOCAL-00036" summary="过渡+动画">
       <created>1532615627246</created>
@@ -595,23 +605,38 @@
       <option name="project" value="LOCAL" />
       <updated>1536850474085</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="admin">
+      <created>1537367812015</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1537367812016</updated>
+    </task>
+    <task id="LOCAL-00084" summary="admin">
+      <created>1537367826736</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1537367826736</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152400000" />
+    <option name="totallyTimeSpent" value="153979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.13474241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49861878" visible="true" weight="0.13474241" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3281027" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872927" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37089872" />
       <window_info id="Favorites" order="2" sideWeight="0.5013812" side_tool="true" weight="0.15625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -630,7 +655,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="函数" />
     <MESSAGE value="变大" />
     <MESSAGE value="深拷贝和浅拷贝" />
     <MESSAGE value="类" />
@@ -655,7 +679,8 @@
     <MESSAGE value="vue" />
     <MESSAGE value="vueapp" />
     <MESSAGE value="react" />
-    <option name="LAST_COMMIT_MESSAGE" value="react" />
+    <MESSAGE value="admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -669,18 +694,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html_css/3.css选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery/3.选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jQuery/2_文档就绪函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -980,10 +993,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/2_解构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="44" selection-start-line="55" selection-end-line="60" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/browser.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/react/7.弹出层.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" selection-start-line="12" selection-start-column="9" selection-end-line="20" />
+        <state relative-caret-position="381">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
