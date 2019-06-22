@@ -27,6 +27,7 @@
             margin-top: -205px; */
             transform: translate(-50%,-50%);
             background-color: yellow;
+            overflow: hidden;
         }
         /* 设定小黄人的头发 */
         .hair1,.hair2{
@@ -117,6 +118,155 @@
             right: -45px;
             top: 20px;
         }
+        /* 眼镜的制作 */
+        .ears{
+            /* width: 100%;
+            height: 100px; */
+            /* border: 1px solid #000; */
+            position: absolute;
+            top: 60px;
+            left: 25px;
+        }
+        .ear_l,.ear_r{
+            width: 90px;
+            height: 90px;
+            border: 5px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            float: left;
+        }
+        .ear_l::after,.ear_r::after{
+            content: "";
+            height: 20px;
+            width: 31px;
+            position: absolute;
+            background-color: #000;
+        }
+        .ear_l::after{
+            left: -26px;
+            top: 35px;
+            transform: rotate(20deg);
+            border-radius: 2px 6px 0px 2px;
+        }
+        .ear_r::after{
+            right: -26px;
+            top: 35px;
+            transform: rotate(-20deg);
+            border-radius: 10px 2px 0px 2px;
+        }
+        /* 制作眼珠 */
+        .ear_l_black,.ear_r_black{
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .ear_l_black{
+            left: 25px;
+            top: 25px;
+        }
+        .ear_r_black{
+            right: 25px;
+            top: 25px;
+        }
+        /* 白色眼珠的制作 */
+        .ear_l_white,.ear_r_white{
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .ear_l_white{
+            left: 50px;
+            top: 40px;
+        }
+        .ear_r_white{
+            right: 50px;
+            top: 40px;
+        }
+        /* 制作小黄人嘴巴 */
+        .mouth{
+            width: 60px;
+            height: 35px;
+            border: 5px solid #000;
+            border-radius: 0 0 0 30px;
+            position: absolute;
+            background-color: #fff;
+            left: 90px;
+            top: 180px;
+            transform: rotate(-30deg);
+        }
+        .mouth::after{
+            content: "";
+            width: 78px;
+            height: 40px;
+            background-color: yellow;
+            position: absolute;
+            border-bottom: 5px solid #000;
+            transform: rotate(30deg);
+            left: 1px;
+            top: -23PX;
+        }
+        /* 制作裤子 */
+        .trousers{
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            top: 260px;
+        }
+        .trousers_top{
+            width: 150px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            border: 5px solid #000;
+            border-bottom: blue;
+            left: 45px;
+            border-bottom: none;
+            z-index: 999;
+        }
+        .trousers_bottom{
+            width: 250px;
+            height: 86px;
+            background-color: blue;
+            position: absolute;
+            top: 50px;
+            border-top: 5px solid #000;
+        }
+        /* 制作肩带 */
+        .t_l_belt,.t_r_belt{
+            width: 100px;
+            height: 20px;
+            background-color:blue;
+            border: 5px solid #000;
+            position: absolute;
+            top: -24px;
+        }
+        .t_l_belt{
+            left: -74px;
+            transform: rotate(35deg);
+        }
+        .t_r_belt{
+            right: -74px;
+            transform: rotate(-35deg);
+        }
+        .t_l_belt::after,.t_r_belt::after{
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+        }
+        .t_l_belt::after{
+            left: 87px;
+        }
+        .t_r_belt::after{
+            left: 3px;
+        }
     </style>
 </head>
 <body>
@@ -130,7 +280,7 @@
         <!-- 身体 -->
         <div class="xhr_body">
             <!-- 眼睛 -->
-            <div class="ear">
+            <div class="ears">
                 <!-- 左眼睛 -->
                 <div class="ear_l">
                     <!-- 左眼珠 -->
@@ -153,7 +303,7 @@
                         <div class="t_r_belt"></div>
                     </div>
                     <!-- 裤子的下部分 -->
-                    <div class="trousers bottom"></div>
+                    <div class="trousers_bottom"></div>
             </div>
         </div>
         <!-- 手臂 -->
