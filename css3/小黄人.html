@@ -267,6 +267,58 @@
         .t_r_belt::after{
             left: 3px;
         }
+        /* 制作小黄人头发动画 */
+        .hair1,.hair2{
+            animation: hair 5s ease-in infinite;
+        }
+        @keyframes hair{
+            10%{
+                transform: rotate(47deg);
+            }
+            20%{
+                transform: rotate(58deg);
+            }
+            50%{
+                transform: rotate(47deg);
+            }
+            80%{
+                transform: rotate(58deg);
+            }
+            100%{
+                transform: rotate(47deg);
+            }
+        }
+        /* 眼睛的动画制作 */
+        .ear_l_black,.ear_r_black{
+            animation: blackEars 5s ease-in infinite;
+        }
+        @keyframes blackEars{
+            10%,50%,100%{
+                transform: translate(0,0);
+            }
+            20%{
+                transform: translate(20px,2px);
+            }
+            80%{
+                transform: translate(-20px,2px);
+            }
+
+        }
+        .ear_l_white,.ear_r_white{
+            animation: whiteEars 5s ease-in infinite;
+        }
+        @keyframes whiteEars{
+            10%,50%,100%{
+                transform: translate(0,0);
+            }
+            20%{
+                transform: translate(20px,4px);
+            }
+            80%{
+                transform: translate(-20px,4px);
+            }
+
+        }
     </style>
 </head>
 <body>
